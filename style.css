@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(images/beach.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: white; */
+    height: 70px;
+}
+.logo{
+    /* background-color: red; */
+    margin-left:30px ;
+    font-size: 20px;
+    font-weight: 700;
+}
+.logo h1{
+    margin: 10px 15px;
+    color: white;
+}
+.links{
+    /* background-color: yellow; */
+    margin-right: 50px;
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links a{
+    margin: 15px;
+    text-decoration: none;
+    font-size:20px;
+    font-weight: 500;
+    color: white;
+    opacity: 0.7;
+}
+
+.links a:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.login{
+    /* background-color: green; */
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.login a{
+    padding: 8px 20px;
+    background-color: #ED5AB3;
+    outline: 1px solid white;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 0;
+    text-decoration: none;
+}
+
+
+.login a:hover{
+    color: #ED5AB3;
+    background-color: white;
+    border: 1px solid #ED5AB3 ;
+    transition: 0.7s;
+} 
+
+.box{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    text-align: center;
+}
+.box h2{
+    color: white;
+    font-size:30px ;
+    font-weight: 500;
+}
+.box  p{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.button{
+    margin-top: 25px;
+    padding: 10px 10px;
+}
+.button button{
+    padding: 10px 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    letter-spacing: 4px;
+    background-color: #ED5AB3;
+    color: white;
+    outline: 1px solid white;
+    border: 0;
+}
+
+.button button:hover{
+    color: #ED5AB3;
+    background-color: white;
+    border: 2px solid #ED5AB3 ;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.places{
+    width: 100%;
+    height: 35%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 80px;
+}
+.images{
+    /* background-color: yellow; */
+    height: 290px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.trips{
+    position: relative;
+    overflow: hidden;
+    /* background-color: red; */
+    width:300px;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+.trips img{
+    width:200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin: 0 10px 0 10px;
+    
+}
+.trips img:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.layer{
+    margin-top: 15px;
+}
+.layer a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer{
+    position: absolute;
+    bottom: 1px;
+    /* background-color: red; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info{
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.info a{
+    color: white;
+    text-decoration: none;
+    margin-left: 8px;
+}
+.info a:hover{
+    text-decoration: underline;
+    
+}
+
+.icons{
+    /* background-color: yellow; */
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icons i{
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    opacity: 0.5;
+}
+.icons i:hover{
+    transform: scale(1.2);
+    opacity: 1;
+    transition: 0.4s;
+}
